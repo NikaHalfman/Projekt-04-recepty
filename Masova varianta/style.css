@@ -38,3 +38,46 @@ body {
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
 
+/*DOPORUČUJEME*/
+.doporucujeme{
+
+}
+
+/*BURGER*/
+.hlavni-recept{
+    background: url("images/burger.jpg");
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/*RECEPTY
+
+.recepty{
+    flex-direction: column;
+    min-height: 90px;
+}
+*/
+
+/*SUSHI*/
+.recept2{
+    background: url("images/sushi.jpg");
+    background-repeat: no-repeat;
+}
+
+/*KUŘE*/
+.recept3{
+    background: url("images/kure.jpg");
+    background-repeat: no-repeat;
+}
+
+/*OMÁČKY*/
+.recept4{
+    background: url("images/rajcata.jpg");
+    background-repeat: no-repeat;
+}
+
+/*GRILOVÁNÍ*/
+.recept5{
+    background: url("images/grilovani.jpg");
+    background-repeat: no-repeat;
+}
