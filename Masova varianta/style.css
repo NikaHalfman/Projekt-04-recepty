@@ -39,45 +39,230 @@ body {
 /* ------------------------------- */
 
 /*DOPORUČUJEME*/
-.doporucujeme{
+.recept-nazev1{
+    font-family:Raleway;
+    color: white;
+    font-weight: 800;
+    font-size: 28px;
+    padding-left: 10px;
+    text-align: left;
+    text-shadow: 0px 4px 3px rgba(0,0,0, 0.5);
+}
+
+@media (min-width: 480px) {
+    .recept-nazev1{
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 860px) {
+    .recept-nazev1{
+        font-size: 48px;
+    }
+}
+
+@media (min-width: 860px) {
+    .doporucujeme{
+        min-height: 450px;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 1 33.33%;
+    }
+}
+
+/*RECEPTY*/
+
+.recept-meta{
+    color: white;
+    text-shadow: 0 3px 3px rgba(0,0,0, 0.5);
+    display: flex;
+    flex-direction: row;
+}
+
+
+.recept-kategorie{
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: left;
+    
+}
+
+.recept-komentare{
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 10px;
+    text-align: right;
+    align-self: flex-start;
+    flex-basis: 500px;
+    padding-top: 10px;
 
 }
+
+@media (min-width: 480px) {
+    .recept-komentare{
+        padding-right: 20px;
+        text-align: right;
+        flex-basis: 750px;
+    }
+}
+
+.recept-nazev{
+    font-family:Raleway;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    padding-left: 10px;
+    text-align: left;
+    text-shadow: 0px 4px 3px rgba(0,0,0, 0.5);
+}
+
+@media (min-width: 480px) {
+    .recept-nazev{
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 860px) {
+    .recept-nazev{
+        font-size:28px;
+    }
+}
+
 
 /*BURGER*/
 .hlavni-recept{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 255px;
     background: url("images/burger.jpg");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
     color: white;
+    border-bottom: 2px solid white;
 }
 
-/*RECEPTY
-
-.recepty{
-    flex-direction: column;
-    min-height: 90px;
+@media (min-width: 480px) {
+    .hlavni-recept{
+        min-height: 325px;
+    }
 }
-*/
+
+@media (min-width: 860px) {
+    .hlavni-recept{
+        min-height: 450px;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 1 33.33%;
+        border-right: 2px solid white;
+    }
+}
+
 
 /*SUSHI*/
 .recept2{
     background: url("images/sushi.jpg");
     background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
 }
 
-/*KUŘE*/
-.recept3{
-    background: url("images/kure.jpg");
-    background-repeat: no-repeat;
+@media (min-width: 480px) {
+    .recept2{
+        min-height: 170px;
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 1 50%;
+        border-right: 2px solid white;
+    }
+
 }
 
 /*OMÁČKY*/
 .recept4{
     background: url("images/rajcata.jpg");
     background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+@media (min-width: 480px) {
+    .recept4{
+        min-height: 170px;
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 1 50%;
+        border-right: 2px solid white;
+    }
+
+}
+
+/*KUŘE*/
+.recept3{
+    background: url("images/kure.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+}
+
+@media (min-width: 480px) {
+    .recept3{
+        min-height: 170px;
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 1 50%;
+    }
+
+}
 /*GRILOVÁNÍ*/
 .recept5{
     background: url("images/grilovani.jpg");
     background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 480px) {
+    .recept5{
+        min-height: 170px;
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 1 50%;
+    }
+
+}
+
+
+@media (min-width: 480px) {
+    .recepty{
+        min-height: 170px;
+        flex: 1 1 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
