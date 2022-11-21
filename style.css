@@ -137,7 +137,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     min-height: 255px;
-    background: url("images/burger.jpg");
+    background: url("Masova varianta/images/burger.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%, 100%;
@@ -164,7 +164,7 @@ body {
 
 /*SUSHI*/
 .recept2{
-    background: url("images/sushi.jpg");
+    background: url("Masova varianta/images/sushi.jpg");
     background-repeat: no-repeat;
     background-size: 100%, 100%;
     background-position: center;
@@ -189,7 +189,7 @@ body {
 
 /*OMÁČKY*/
 .recept4{
-    background: url("images/rajcata.jpg");
+    background: url("Masova varianta/images/rajcata.jpg");
     background-repeat: no-repeat;
     background-size: 100%, 100%;
     background-position: center;
@@ -213,7 +213,7 @@ body {
 
 /*KUŘE*/
 .recept3{
-    background: url("images/kure.jpg");
+    background: url("Masova varianta/images/kure.jpg");
     background-repeat: no-repeat;
     background-size: 100%, 100%;
     background-position: center;
@@ -236,7 +236,7 @@ body {
 }
 /*GRILOVÁNÍ*/
 .recept5{
-    background: url("Projekt-04-recepty/grilovani.jpg");
+    background: url("Masova varianta/images/kure.jpg");
     background-repeat: no-repeat;
     background-size: 100%, 100%;
     background-position: center;
